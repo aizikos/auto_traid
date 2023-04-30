@@ -1,0 +1,248 @@
+@media (max-width: 390px ) {
+
+    .header_section{
+        background-position: center;
+    }
+
+    .container{
+        margin: 0 15px;
+        padding: 0;
+    }
+
+    .header__burger_btn {
+        display: block;
+        margin-right: 20px;
+    }
+    
+    .menu{
+        position: absolute;
+        left: -250px;
+        top: 0;
+        padding: 70px 20px 20px 20px;
+        margin-left: 0;
+        background: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(6.5px);
+        
+    }
+
+    .header-line{
+        display: none;
+    }
+
+    .header-content{
+        border-top: none;
+        margin-top: -18px;
+        width: 390px;
+    }
+
+    .header_logo{
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+        padding: 18px 70px 18px 70px;
+    }
+
+    .header_logo img{
+        width: 100px;
+    }
+
+    .call_tel{
+        display: block;
+    }
+
+    .header-text h3{
+        font-size: 19px;
+    }
+
+    .button_text{
+        margin-left: 25%;
+    }
+
+    .menu li{
+        display: block;
+    }
+
+    .menu a{
+        display: block;
+        padding: 10px 0;
+    }
+
+
+    .main_top_inner{
+        display: block;
+    }
+
+    .img-left img{
+        width: 360px;
+        height: 280px;
+    }
+
+    .text-left{
+        font-size: 20px;
+        padding: 20px 0 0 20px;
+    }
+
+    .more-info{
+        top: 165px;
+        left: 200px;
+    }
+
+    .img_frist{
+        padding-left: 0;
+    }
+
+    .img_frist img{
+        width: 360px;
+        height: 280px;
+    }
+
+    .more-block{
+        left: 210px;
+        top: 192px;
+    }
+
+
+    .title{
+        font-size: 20px;
+    }
+
+    .block{
+        width: 180px;
+        height: 25px;
+    }
+
+    .block p {
+        font-size: 8px;
+        padding: 0 0 0 80px;
+        line-height: 10px;
+    }
+
+    .models{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+
+    .car_models_card{
+        padding-top: 24px;
+    }
+
+    .car_models_card img{
+        width: 150px;
+    }
+
+    .slider_car{
+        width: 324px;
+        height: 250px;
+    }
+
+    .navigation{
+        bottom: 8px;
+    }
+
+    .bar{
+        width: 10px;
+    }
+
+    .title_buy{
+        margin: 0;
+        font-size: 20px;
+        line-height: 29px;
+        width: 350px;
+    }
+
+    .info_buy{
+        width: 345px;
+        height: 165px;
+    }
+
+    .block-2{
+        padding: 20px 0px 40px 20px;
+    }
+
+    .block-5 {
+        height: 245px;
+        position: relative;
+    }
+
+    .button-text a{
+        position: absolute;
+        top: 186px;
+        left: 45px;
+    }
+
+
+    .info_buy p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .about_inner{
+        background-position: center;
+        min-width: 345px;
+    }
+
+    .about_blocks{
+        display: block;
+        padding-top: 120px;
+    }
+
+    .about-us{
+        margin-top: 10px;
+        transition: 0.5s;
+    }
+
+    .about-us h1{
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .about_text{
+        display: none;
+    }
+
+    .about-us:hover .about_text{
+        display: block;
+    }
+
+    .footer_frist_inner{
+        display: block;
+    }
+
+    .menu_lidt{
+        display: none;
+    }
+
+    .frist_footer_right{
+        margin-top: -65px;
+    }
+
+    .call_footer{
+        right: 80px;
+    }
+
+    .call_footer h1{
+        font-size: 20px;
+    }
+
+    .footer_icons{
+        left: 252px;
+        top: 40px;
+    }
+    
+    .footer_btn{
+        left: 16px;
+        top: 95px;
+        width: 312px;
+        padding: 18px 90px;
+    }
+
+    .footer-info{
+        margin-top: 110px;
+    }
+
+    .second_footer{
+        margin-top: 230px;
+    }
+
+}
