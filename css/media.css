@@ -243,6 +243,48 @@
 
     .second_footer{
         margin-top: 230px;
+        border-bottom:none;
+    }
+
+    .footer_second_inner{
+        display: block;
+    }
+
+    .footer_block_left{
+        justify-content: space-around;
+        width: 365px;
+    }
+
+    .mini_card{
+        width: 116.44px;
+        height: 70px;
+        padding: 6px 10px 0px 8px;
+    }
+
+    .informartions::before{
+        font-size: 15px;
+    }
+
+    .mini_card h5{
+        font-size: 6px;
+    }
+
+    .inform::after{
+        top: 6px;
+    }
+
+    .footer_block_right{
+        justify-content: space-around;
+        margin-left: 0;
+    }
+
+    .min-card{
+        width: 177px;
+        height: 47px;
+    }
+
+    .footer_block_right .min-card{
+        margin-left: 0;
     }
 
 }
