@@ -139,6 +139,23 @@
         width: 150px;
     }
 
+    .brand img{
+        width: 75px;
+    }
+
+    .brand_name{
+        font-size: 12px;
+        left: 25px;
+    }
+
+    .mers{
+        left: 0;
+    }
+
+    .mitsubi{
+        left: 18px;
+    }
+
     .slider_car{
         width: 324px;
         height: 250px;
