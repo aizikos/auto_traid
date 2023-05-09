@@ -56,6 +56,7 @@
     max-width: 650px;
     margin-top: 45px;
     overflow: hidden;
+    color:black;
 }
 
 .slider_img{
@@ -63,16 +64,32 @@
 
 }
 
-.slider_img img{
+.swiper-slide img{
     width: 650px;
     border-radius: 15px;
     transition: all ease 1s;
     color: black;
 }
 
-.buttons{
-    width: 50px;
-    height: 45px;
-    background: black;
-}
 
+.swiper-button-prev:after {
+    position: absolute;
+    font-size: 18px;
+    background: #F1F0EB;
+    color: black;
+    padding: 18px 30px 18px 22px;
+    border-right: 1px solid #D9D9D9;
+    border-radius: 20px 0 0 20px;
+    left: 530px;
+    top: 490px;
+}
+.swiper-button-next:after {
+    position: absolute;
+    font-size: 18px;
+    background: #F1F0EB;
+    color: black;
+    padding: 18px 22px 18px 30px;
+    border-radius: 0px 20px 20px 0px;
+    right: 590px;
+    top: 490px;
+}
