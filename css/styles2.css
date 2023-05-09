@@ -1,0 +1,78 @@
+/*изменение в втором странице отличие от первого стили которые подойдуть
+на проектте*/
+/*Изменение в шапке незначительные*/
+
+
+.header_section{
+    background: none;
+    min-height: 162px;
+}
+
+.header-top{
+    color: black;
+}
+
+.header-content{
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.menu a{
+    color: black;
+}
+
+/* Начинаем работать над основым первым блоком 
+1)сделаем результать поиска
+2)напишем тему 
+3)сделаем слайдер с помощю скрипта
+4)сделаем инфо блок---
+внизу должно быть таблица или блоки коль(6)
+5)справа сделаем инфо карту с кнопкой
+*/
+
+.rasult_name{
+    color: black;
+    width: 410px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.home{
+    list-style-type: none;
+}
+
+.info_block{
+    margin-top: 60px;
+}
+
+.name_object h1{
+    color: black;
+}
+
+/*делаем слайдер*/
+
+.slider_post{
+    max-width: 650px;
+    margin-top: 45px;
+    overflow: hidden;
+}
+
+.slider_img{
+    display: flex;
+
+}
+
+.slider_img img{
+    width: 650px;
+    border-radius: 15px;
+    transition: all ease 1s;
+    color: black;
+}
+
+.buttons{
+    width: 50px;
+    height: 45px;
+    background: black;
+}
+
