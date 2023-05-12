@@ -50,7 +50,13 @@
     color: black;
 }
 
-/*делаем слайдер*/
+/*делаем слайдер и инфо лист*/
+
+.slider_banner{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .slider_post{
     max-width: 650px;
@@ -92,4 +98,133 @@
     border-radius: 0px 20px 20px 0px;
     right: 590px;
     top: 490px;
+}
+
+
+.info_list{
+    width: 480px;
+    height: 650px;
+    background:#ffffff;
+    margin-top: 45px;
+    border-radius: 10px;
+    color: black;
+}
+
+.list_title{
+    padding: 20px 0px 0px 20px;
+}
+
+.future_list_car{
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+}
+
+.left_list,.right_list{
+    list-style-type: none;
+}
+.left_list li,.right_list li{
+    line-height: 18px;
+    letter-spacing: 0.09em;
+    padding-top: 20px;
+}
+
+.left_list{
+    font-family: 'Inter', sans-serif;
+    padding-left: 20px;
+}
+
+.right_list{
+    padding-left: 0;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.list_button{
+    margin: 70px 400px 40px 40px;
+}
+
+.list_button a{
+    border: 1px solid black;
+    padding: 30px 175px 20px 174px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color:black;
+}
+
+.list_button a:hover{
+    background: #4071CB;
+    color: #ffffff;
+}
+
+.Discription_car_block{
+    margin-top: -145px;
+    color: black;
+    width: 650px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.discription_inner{
+    padding: 30px 30px 25px 30px;
+}
+
+.discription_title h1{
+    letter-spacing: 0.09em;
+}
+
+.discrpiption_text{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.09em;
+}
+
+.discription_table{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #D9D9D9;
+}
+
+.table{
+    width: 210px;
+    border-right: 1px solid #D9D9D9;
+}
+
+.tb_r{
+    border-right: none;
+}
+
+.tb_bootom{
+    border-top: 1px solid #D9D9D9;
+}
+
+.tab_icon1:before{
+    content: "\f1b9";
+    font-family: 'icomoon' !important;
+    color: black;
+}
+.tab_icon2:before{
+    content: "\f1b6";
+    font-family: 'icomoon' !important;
+    color: black;
+}
+.tab_icon3:before{
+    content: "\f007";
+    font-family: 'icomoon' !important;
+    color: black;
+}
+
+.deals2{
+    margin-top: 100px;
+}
+
+.c-ritgh{
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.img__1{
+    padding-left: 0;
 }
