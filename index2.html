@@ -48,20 +48,20 @@
                 </div>
             </div>
             <br>
-            <div class="header-content">
+            <div class="header-content h-content">
                 <div class="container">
                     <div class="header_content_inner">
-                        <button class="header__burger_btn " id="burger">
+                        <button class="header__burger_btn Burger__btn_header " id="burger">
                             <span></span>
                             <span></span>
                             <span></span>
                         </button>
-                        <div class="header_logo">
+                        <div class="header_logo logo_2">
                             <a href="#">
                                 <img src="/photo/logo/logo black.png">
                             </a>
                         </div>
-                        <div class="call_tel">
+                        <div class="call_tel tell2">
                             <a href="tel:+907 7654 7839 234"></a>
                         </div>
                         <div class="menu">
@@ -153,18 +153,22 @@
                                 <h1>Discription</h1>
                             </div>
                             <div class="discrpiption_text">
-                                <p>Alloy wheels, tinting, sunroof, spoiler, railings, xenon,
-                                    bixenon, crystal optics, lensed optics, daytime running lights, 
-                                    fog lights, headlight washer, headlight corrector, leather, combined, 
-                                    curtains, audio system, built-in phone, bluetooth, CD, CD-changer,
-                                    MP3, USB, DVD, DVD-changer, subwoofer, GUR, ABS, SRS, winter mode, 
-                                    sport mode, keyless access, full electric package, central locking, 
-                                    air conditioner, climate control, cruise control, trip computer, 
-                                    navigation system, multicooker, seat heating, heated rear seats, 
-                                    seat ventilation, seat memory, steering wheel memory, parktronic, 
-                                    rearview camera, light sensor, rain sensor, tire pressure sensor, 
-                                    air suspension, variable ground clearance, fresh imported, freshly delivered
-                                </p>
+                                <article>
+                                    <p>Alloy wheels, tinting, sunroof, spoiler, railings, xenon,
+                                        bixenon, crystal optics, lensed optics, daytime running lights, 
+                                        fog lights, headlight washer, headlight corrector, leather, combined, 
+                                        curtains, audio system, built-in phone, bluetooth,<span id="dots">...</span><span id="more"> CD, CD-changer,
+                                        MP3, USB, DVD, DVD-changer, subwoofer, GUR, ABS, SRS, winter mode, 
+                                        sport mode, keyless access, full electric package, central locking, 
+                                        air conditioner, climate control, cruise control, trip computer, 
+                                        navigation system, multicooker, seat heating, heated rear seats, 
+                                        seat ventilation, seat memory, steering wheel memory, parktronic, 
+                                        rearview camera, light sensor, rain sensor, tire pressure sensor, 
+                                        air suspension, variable ground clearance, fresh imported, freshly delivered
+                                        </span>
+                                        <button id="btn" onclick="readMore()"> More </button>
+                                    </p>
+                                </article>
                             </div>
                             <br>
                         </div>
@@ -385,9 +389,81 @@
                     </div>
                 </div>
             </div>
-            
         </section>
     </main>
+    <footer>
+        <div class="frist_footer">
+            <div class="container">
+                <div class="footer_frist_inner">
+                    <div class="frist_footer_left">
+                        <img src="/photo/uat trade 2 3.png" alt="">
+                        <p>Buy, autoparts or service premium cars from Dubai</p>
+                        <div class="menu_lidt">
+                            <a href="#">For SALE</a>
+                            <a href="#">autoparts</a>
+                            <a href="#">servising</a>
+                            <a href="#">about us</a>
+                        </div>
+                    </div>
+                    <div class="frist_footer_right">
+                        <div class="call_footer">
+                            <p>Call the office at:</p>
+                            <h1>+907 7654 7839 234</h1>
+                            <div class="top-icons footer_icons">
+                                <a href="#"><img src="/photo/mess/whatsapp 1.png"></a>
+                                <a href="#"><img src="/photo/mess/telegram 1.png"></a>
+                            </div>
+                            <a href="#" class="button footer_btn">Request a callback</a>
+
+                            <div class="footer-info">
+                                <p>Our adress</p>
+                                <p class="secont">Showroom 1, Al Roumi building, Al Ittihad Rd, Port Saeed, Dubai, UAE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second_footer">
+            <div class="container">
+                <div class="footer_second_inner">
+                    <div class="second_footer_left">
+                        <div class="footer_block_left">
+                            <div class="mini_card">
+                                <div class="informartions"></div>
+                                <div class="inform"></div>
+                                <h5>invoice</h5>
+                            </div>
+                            <div class="mini_card">
+                                <div class="informartions"></div>
+                                <div class="inform"></div>
+                                <h5>USDT</h5>
+                            </div>
+                            <div class="mini_card">
+                                <div class="informartions inform4"></div>
+                                <div class="inform"></div>
+                                <h5>USDT</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second_footer_right">
+                        <div class="footer_block_right">
+                            <div class="mini_card min-card">
+                                <div class="informartions faceBook"></div>
+                                <h5>FACEBOOK</h5>
+                            </div>
+                            <div class="mini_card min-card">
+                                <div class="informartions insta"></div>
+                                <h5>INSTAGRAM</h5>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>  
+    </footer>
+    
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="/js/script.js"></script>
