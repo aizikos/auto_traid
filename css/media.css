@@ -344,17 +344,19 @@
 
     .slider_post ,
     .swiper-slide img{
-        width: 390px;
+        width: 360px;
     }
 
     .swiper-button-prev::after{
-        top: 195px;
-        left: 245px;
+        top: 220px;
+        left: 226px;
+        font-size: 10px;
     }
 
     .swiper-button-next::after{
-        top: 195px;
-        right: 2px ;
+        top: 220px;
+        right: 29px ;
+        font-size: 10px;
     }
 
     .info_list{
@@ -378,6 +380,24 @@
 
     .Discription_car_block{
         margin-top: 50px;
+        width: 360px;
+    }
+
+    .table{
+        width: 180px;
+    }
+
+    .tb-l,
+    .tb_k{
+        border-right: none;
+    }
+
+    .tb_k{
+        border-left: 1px solid #D9D9D9;
+    }
+
+    .tb_r{
+        border-top: 1px solid #D9D9D9;
     }
 
     .list_button{
@@ -394,9 +414,25 @@
         display: none;
     }
 
-   /* #dots,
+    #dots,
     #btn{
     display: block;
-}*/
+}
 
+    #btn{
+        border: none;
+        margin-top: 5px;
+        background: transparent;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    #btn:hover{
+        text-decoration: underline;
+    }
+
+    .c-ritgh{
+        display: block;
+    }
+   
 }
