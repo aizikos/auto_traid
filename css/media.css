@@ -1,4 +1,4 @@
-@media (max-width: 590px ) {
+@media (max-width: 390px ) {
 
     .header_section{
         background-position: center;
@@ -311,5 +311,92 @@
     .footer_block_right .min-card{
         margin-left: 0;
     }
+
+
+    /*Медиа запрос для втрой страницы */
+
+    .logo_2{
+        border-left:1px solid #989898;
+        border-right: 1px solid #989898;
+    }
+
+    .h-content{
+        border-bottom: 1px solid #989898
+    }
+
+    .rasult_name{
+        width: 315px;
+        font-size: 10px;
+    }
+
+    .search{
+        margin-top: -60px;
+    }
+
+    .name_object h1{
+        font-size: 20px;
+        margin-top: -35px;
+    }
+
+    .slider_banner{
+        display: block;
+    }
+
+    .slider_post ,
+    .swiper-slide img{
+        width: 390px;
+    }
+
+    .swiper-button-prev::after{
+        top: 195px;
+        left: 245px;
+    }
+
+    .swiper-button-next::after{
+        top: 195px;
+        right: 2px ;
+    }
+
+    .info_list{
+        width: 360px;
+    }
+
+    .list_title{
+        font-size: 16px;
+        padding: 10px 0px 0px 10px;
+    }
+
+    .future_list_car{
+        width: 355px;
+    }
+
+    .left_list,
+    .right_list{
+        font-size: 10px;
+    }
+
+
+    .Discription_car_block{
+        margin-top: 50px;
+    }
+
+    .list_button{
+        margin-top: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .list_button a{
+        padding: 20px 145px 20px 145px;
+    }
+
+    #more{
+        display: none;
+    }
+
+   /* #dots,
+    #btn{
+    display: block;
+}*/
 
 }
