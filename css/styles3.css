@@ -1,0 +1,144 @@
+/* третая страница*/
+
+.header_section{
+    background-image: url(/photo/фон1.jpg);
+}
+
+.main_content{
+    display: flex;
+}
+
+.main_page{
+    background: #fff;
+    width: 315px;
+    grid-template: 100%;
+}
+
+.form_box_container{
+    padding: 9px 20px 0px 9px;
+}
+
+.form_box_1,
+.form_box_2,
+.form_box_3,
+.form_box_4{
+    color: black;
+    border-bottom: 1px solid #d9d9d9;
+    height: 100%;
+}
+
+.form_box_1 label,
+.form_box_2 label,
+.form_box_3 h1,
+.form_box_4 label{
+    margin-top: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.form_box_1 select,
+.form_box_2 select
+{
+    margin-top: 8px;
+    margin-bottom: 25px;
+    outline: none;
+    display: block;
+    width: 130px;
+    height: 30px;
+    padding-left: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.form_box_2,
+.form_box_4{
+    margin-top: 25px;
+}
+
+.price_form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pr_based{
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    line-height: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.pr_based span{
+    color: #4071CB;
+}
+
+
+.list_style_inner{
+    margin-top: 25px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.list_styles_left,
+.list_styles_right{
+    height: 100%;
+    display: grid;
+    justify-content: space-between;
+}
+
+.style_car{
+    margin-top: 5px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    border: 1px solid #d9d9d9;
+    padding: 17px 38px 17px 38px;
+}
+
+.style_car:hover{
+    background: #4071CB;
+    color: #fff;
+}
+
+.form_box_4 p{
+    padding-top: 15px;
+    padding-bottom: 16px;
+    margin-top: 5px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.check{
+    float: right;
+}
+
+.deals_2{
+    margin-top: 0;
+}
+
+.cont_2{
+    margin: 0 30px;
+}
+
+.pro_ts{
+    justify-content:start ;
+}
+
+.product_card{
+    width: 282px;
+}
+
+.mitsu{
+    font-size: 50px;
+}
