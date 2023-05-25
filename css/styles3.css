@@ -196,3 +196,13 @@
 .form_box_6 img{
     padding: 15px;
 }
+/*ДОБАВЛЕНЫ МАЛЕНКИЕ ШТРИХИ ДЛЯ ПРОДУКТ-КАРТ*/
+.character_car{
+    position: absolute;
+    top: 64%;
+    width: 275px;
+}
+
+.price_car{
+    left: 50px;
+}
