@@ -22,7 +22,8 @@
 .form_box_2,
 .form_box_3,
 .form_box_4,
-.form_box_5{
+.form_box_5,
+.form_box_6{
     color: black;
     border-bottom: 1px solid #d9d9d9;
     height: 100%;
@@ -32,7 +33,8 @@
 .form_box_2 label,
 .form_box_3 h1,
 .form_box_4 label,
-.form_box_5 h1{
+.form_box_5 h1,
+.form_box_6 h1{
     margin-top: 25px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -125,7 +127,8 @@
     float: right;
 }
 
-.form_box_5 label{
+.form_box_5 label,
+.form_box_6 label{
     width: 90px;
     display: block;
     position: relative;
@@ -188,4 +191,8 @@
 
 .check_img input{
     display: none;
+}
+
+.form_box_6 img{
+    padding: 15px;
 }
