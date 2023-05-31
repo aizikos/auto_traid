@@ -434,5 +434,79 @@
     .c-ritgh{
         display: block;
     }
-   
+   /*Добавим медиа запрос для 3 страницы*/
+
+   .main_content{
+    display: block;
+   }
+
+   .main_page{
+    width: 388px;
+   }
+
+   .form_box_3{
+    padding: 22px;
+   }
+
+   .form_box_5 label, .form_box_6 label{
+    margin-left: 22px;
+   }
+
+   .pro_ts{
+    display: block;
+   }
+
+   .cont_2 .products{
+    margin-top: -100px;
+    margin-left: 30px;
+   }
+
+
+   .pro_ts.product_card{
+    margin-right: 0;
+   }
+
+   .two_pr_card{
+    display: none;
+   }
+
+   .serial_number{
+    justify-content: flex-start;
+    margin-left: 50px;
+   }
+
+   .arrows{
+    width: 30px;
+    padding: 6px 9px 0px 5px;
+    }
+
+    .num{
+    width: 30px;
+    padding: 7px 15px;
+    }
+
+    .check_img h2{
+        display: block;
+        margin-left: 20%;
+        border: 1px solid black;
+        padding: 20px 100px;
+        border-radius: 10px;
+    }
+    .check_img h2:hover.img_check{
+        display: block;
+    }
+
+    .check_img #dots{
+        position: absolute;
+        bottom: 110px;
+        left: 40%;
+        font-size: 45px;
+    }
+
+    .check_img #btn{
+        border: 1px solid black;
+        padding: 10px 50px;
+        margin: 40px 100px;
+        border-radius: 10px;
+    }
 }
