@@ -192,6 +192,7 @@
     display: flex;
     flex-wrap: wrap;
     height: 100%;
+   
 }
 
 .check_img input:checked + label{

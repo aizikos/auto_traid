@@ -2,6 +2,7 @@
 
     .header_section{
         background-position: center;
+        width: 390px;
     }
 
     .container{
@@ -41,6 +42,10 @@
         border-top: none;
         margin-top: -18px;
         width: 390px;
+    }
+
+    .h-content .header_content_inner{
+        margin-top: -18px;
     }
 
     .header_logo{
@@ -230,6 +235,10 @@
         display: block;
     }
 
+    .frist_footer{
+        width: 390px;
+    }
+
     .footer_frist_inner{
         display: block;
     }
@@ -268,7 +277,9 @@
 
     .second_footer{
         margin-top: 230px;
-        border-bottom:none;
+        border: none;
+        border-top: 1px solid #D9D9D9;
+        width: 390px;
     }
 
     .footer_second_inner{
@@ -441,7 +452,7 @@
    }
 
    .main_page{
-    width: 388px;
+    width: 390px;
    }
 
    .form_box_3{
@@ -450,6 +461,10 @@
 
    .form_box_5 label, .form_box_6 label{
     margin-left: 22px;
+   }
+
+   .deals_2{
+    width: 390px;
    }
 
    .pro_ts{
@@ -483,6 +498,10 @@
     .num{
     width: 30px;
     padding: 7px 15px;
+    }
+
+    .check_img{
+        position: relative;
     }
 
     .check_img h2{
