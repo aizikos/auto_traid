@@ -1,5 +1,10 @@
 @media (max-width: 390px ) {
 
+    .header_content_inner{
+        width: 360px;
+
+    }
+
     .header_section{
         background-position: center;
         width: 390px;
@@ -40,7 +45,6 @@
 
     .header-content{
         border-top: none;
-        margin-top: -18px;
         width: 390px;
     }
 
@@ -91,7 +95,6 @@
 
     .text-left{
         font-size: 20px;
-        padding: 20px 0 0 20px;
     }
 
     .more-info{
@@ -125,7 +128,6 @@
 
     .block p {
         font-size: 8px;
-        padding: 0 0 0 80px;
         line-height: 10px;
     }
 
@@ -153,6 +155,20 @@
         left: 25px;
     }
 
+    .products{
+        display: block;
+    
+    }
+
+    .product_card{
+        width: 320px;
+        
+    }
+
+    .character_car{
+        width: 320px;
+    }
+
     .mers{
         left: 0;
     }
@@ -172,6 +188,10 @@
 
     .bar{
         width: 10px;
+    }
+
+    .block_info_buy{
+        display: block;
     }
 
     .title_buy{
@@ -199,6 +219,11 @@
         position: absolute;
         top: 186px;
         left: 45px;
+        padding: 15px 30px;
+    }
+
+    .block_buy{
+        height: 1200px;
     }
 
 
@@ -215,11 +240,15 @@
     .about_blocks{
         display: block;
         padding-top: 120px;
+        padding-left: 40px;
+        height: auto;
     }
 
     .about-us{
         margin-top: 10px;
         transition: 0.5s;
+        width: 276px;
+        height: 100%;
     }
 
     .about-us h1{
@@ -229,6 +258,8 @@
 
     .about_text{
         display: none;
+        position: static;
+        width: 260px;
     }
 
     .about-us:hover .about_text{
@@ -241,6 +272,7 @@
 
     .footer_frist_inner{
         display: block;
+        width: 390px;
     }
 
     .menu_lidt{
@@ -252,7 +284,9 @@
     }
 
     .call_footer{
-        right: 80px;
+        display: block;
+        top: 15px;
+        width: 370px;
     }
 
     .call_footer h1{
@@ -262,6 +296,7 @@
     .footer_icons{
         left: 252px;
         top: 40px;
+        position: absolute;
     }
     
     .footer_btn{
@@ -269,10 +304,13 @@
         top: 95px;
         width: 312px;
         padding: 18px 90px;
+        position: absolute;
     }
 
     .footer-info{
-        margin-top: 110px;
+        margin-top: 0px;
+        position: absolute;
+        top: 175px;
     }
 
     .second_footer{
@@ -457,6 +495,11 @@
 
    .form_box_3{
     padding: 22px;
+   }
+
+   .style_car{
+    font-size: 14px;
+    padding: 22px 35px;
    }
 
    .form_box_5 label, .form_box_6 label{

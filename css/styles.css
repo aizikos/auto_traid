@@ -22,17 +22,14 @@ a{
 }
 
 .container{
-    max-width: 1300px;
     margin: 0 50px;
     padding: 0 10px;
-    font-weight: 400;
 }
 
 
 .header-top{
     display: flex;
     justify-content: space-between;
-    position: absolute;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
@@ -42,17 +39,13 @@ a{
 }
 
 .top-left{
-    display: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
     font-family: 'Inter', sans-serif;
 }
 
-
-.tel{
-    font-family: 'Heebo', sans-serif;
-    width: 159px;
-    position: absolute;
-    left: 650px;
-}
 
 .rus{
     position: absolute;
@@ -71,23 +64,28 @@ a{
     z-index: 6;
 }
 
-
-
-
 .leng:after{
     content: "\f0d7";
     font-family: 'icomoon' !important;
 }
 
-.curr{
-    position: absolute;
-    left: 50px;
-    width: 160px;
-}
 
 .curr::after{
     content: "\f0d7";
     font-family: 'icomoon' !important;
+}
+
+.top-rigth{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
+
+.tel{
+    font-family: 'Heebo', sans-serif;
+    width: 159px;
+    
 }
 
 .button,
@@ -96,9 +94,6 @@ a{
     color:#ffffff;
     width: 250px;
     height: 55px;
-    position: absolute;
-    top: -20px;
-    left: 820px;
     padding: 18px 51px;
 }
 
@@ -113,17 +108,12 @@ a{
 
 
 .top-icons{
-    position: absolute;
-    left: 1080px;
     width: 100px;
 }
 
 .header-content{
-    position: absolute;
-    margin-top: 35px;
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid white;
-    width: 1263px;
 }
 
 .call_tel{
@@ -140,6 +130,7 @@ a{
 .header_content_inner{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header__burger_btn{
@@ -186,7 +177,6 @@ a{
 }
 
 .menu{
-    margin-left: 200px;
     display: inline;
 }
 
@@ -205,8 +195,13 @@ a{
     backdrop-filter: blur(1px);
 }
 
-.header-text{
-    margin-top: 270px;
+.banner{
+    width: 100%;
+    height: 500px;
+    position: revert;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header-text h1{
@@ -255,6 +250,7 @@ a{
 
 .main_top_inner{
     display: flex;
+    justify-content: space-around;
 }
 
 .img-left{
@@ -262,14 +258,14 @@ a{
 }
 
 .img-left img{
-    width: 565px;
+   max-width: 110%;
 }
 
 .text-left{
     position: absolute;
     z-index: 1;
-    top: 0px;
-    padding: 30px 0px 579px 30px;
+    top: 40px;
+    left: 45px;
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 0.12em;
@@ -280,8 +276,8 @@ a{
     z-index: 1;
     width: 120px;
     height: 60px;
-    top: 440px;
-    left: 390px;
+    top: 475px;
+    left: 435px;
     right: 30px;
     color: #ffffff;
     padding: 23px 44px 23px 44px;
@@ -297,7 +293,7 @@ a{
 }
 
 .img_frist img{
-    width: 560px;
+    max-width: 110%;
 }
 
 .text_right{
@@ -311,8 +307,8 @@ a{
 
 .more-block{
     position: absolute;
-    top: 169px;
-    left: 430px;
+    top: 205px;
+    left: 470px;
     width: 120px;
     height: 60px;
     padding: 23px 44px 23px 44px;
@@ -349,10 +345,10 @@ a{
 }
 
 .block{
-    width: 580px;
+    width: 780px;
     height: 45px;
     border: 1px solid #D9D9D9;
-    ;
+    text-align: center;
 }
 
 .block.left{
@@ -367,8 +363,6 @@ a{
     font-size: 16px;
     letter-spacing: 0.01em;
     text-transform: uppercase;
-    padding: 0 210px;
-
 }
 
 .block:hover{
@@ -379,6 +373,7 @@ a{
 .models{
     margin-top: 62px;
     display: flex;
+    justify-content: space-between;
 }
 
 .brand{
@@ -387,7 +382,6 @@ a{
 
 .car_models_card{
     position: relative;
-    padding-left: 5px;
     transition: 3s;
 }
 
@@ -426,7 +420,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    height: 250px;   
 }
 
 .button_click a{
@@ -435,8 +429,6 @@ a{
     padding: 10px 30px 10px 85px;
     border: 1px solid #4071CB;
     border-radius: 5px;
-    position: absolute;
-    top: 130px;
     line-height: 18px;
     letter-spacing: 0.01em;
 }
@@ -449,7 +441,6 @@ a{
 
 .deals{
     color: #000;
-    margin-top: 350px;
 }
 
 .deals_text{
@@ -468,8 +459,8 @@ a{
 }
 
 .product_card{
-    width: 325px;
-    height: 365px;
+    width: 370px;
+    height: 425px;
     background: #f1f0eb;
     border: 0.2px solid #D9D9D9;
     border-radius:10px;
@@ -513,7 +504,7 @@ a{
 }
 
 .year{
-    font-size: 10px;
+    font-size: 12px;
     line-height: 13px;
     letter-spacing: 0.12em;
     padding-left: 20px;
@@ -534,10 +525,13 @@ a{
 .character_img{
     position: absolute;
     top: 140px;
-    left: 30px;
+    left: 75px;
 }
 
 .character_car{
+    position: absolute;
+    width: 365px;
+    bottom: 24%;
     display: flex;
     justify-content: space-between;
     padding: 30px;
@@ -570,13 +564,13 @@ a{
     border-radius: 10px;
     padding: 10px 50px 10px 50px;
     position: absolute;
-    left: 75px;
-    bottom: 15px;
+    left: 95px;
+    bottom: 50px;
 }
 
 .slider_car{
-    width: 1200px;
-    height: 600px;
+    max-width: 1625px;
+    height: 820px;
     overflow: hidden;
     position: relative;
     margin-left: 30px;
@@ -648,13 +642,12 @@ input[name="r"] {
 
 .block_buy{
     color: #000;
-    position: relative;
-    margin-top: 165px;
+    display: flex;
+    height: 800px;
+    align-items:flex-end;
 }
 
 .title_buy{
-    margin: 0px 320px;
-    width: 515px;
     text-align: center;
     line-height: 44px;
     text-transform: uppercase;
@@ -663,8 +656,8 @@ input[name="r"] {
 
 .block_info_buy{
     display: flex;
-
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .info_buy{
@@ -683,29 +676,29 @@ input[name="r"] {
 }
 
 .block-1{
-    padding: 20px;
-    width: 265px;
+    padding: 20px 115px 20px 20px;
+    width: 455px;
 }
 
 .block-2{
-    width: 425px;
-    padding: 20px 135px 40px 20px;
+    width: 610px;
+    padding: 20px 255px 40px 20px;
 }
 
 .block-3{
-    width: 375px;
+    width: 428px;
     padding: 20px 82px 40px 20px;
     
 }
 
 .block-4{
-    width: 460px;
-    padding: 20px 83px 40px 20px;
+    width: 555px;
+    padding: 20px 85px 40px 20px;
 }
 
 .block-5{
-    width: 620px;
-    padding: 20px 45px 40px 20px;
+    width: 781px;
+    padding: 20px 45px 40px 35px;
 }
 
 .button-text{
@@ -736,7 +729,7 @@ input[name="r"] {
 
 .about_inner{
     min-width: 1160px;
-    min-height: 700px;
+    min-height: 888px;
     background: url(/photo/cars.jpg);
     border-radius: 10px;
     background-size: cover;
@@ -745,14 +738,15 @@ input[name="r"] {
 }
 
 .about_blocks{
-    padding: 360px  10px 10px 10px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    height: 850px;
 }
 
 .about-us{
-    width: 276px;
-    
+    width: 340px;
+    height: 350px;
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(6.5px);
     padding: 20px 25px 20px 15px;
@@ -764,6 +758,11 @@ input[name="r"] {
     line-height: 31px;
     letter-spacing: 0.01em;
 }
+
+/*.text2{
+    position: absolute;
+    top: 48%;
+}*/
 
 .text1{
     margin-top: 75px;
@@ -780,6 +779,7 @@ input[name="r"] {
 .footer_frist_inner{
     display: flex;
     justify-content: space-between;
+    width: 1245px;
 }
 
 .frist_footer_left,
@@ -812,9 +812,11 @@ input[name="r"] {
 
 .call_footer{
     position: absolute;
-    right: 345px;
-    width: 264px;
-
+    left: 0;
+    width: 715px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer_btn{
@@ -828,7 +830,7 @@ input[name="r"] {
 }
 
 .footer-info{
-    margin-top: 62px;
+    margin-top: 125px;
     font-size: 12px;
     line-height: 15px;
 }
@@ -855,8 +857,8 @@ input[name="r"] {
 }
 
 .mini_card{
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 110px;
     border: 1px solid #D9D9D9;
     padding: 15px;
     position: relative;
@@ -887,7 +889,7 @@ input[name="r"] {
 }
 
 .footer_block_left{
-    width: 625px;
+    width: 940px;
     display: flex;
     justify-content: space-between;
 }

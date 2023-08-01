@@ -6,6 +6,7 @@
 .header_section{
     background: none;
     min-height: 162px;
+    margin-top: -18px;
 }
 
 .header-top{
@@ -94,8 +95,8 @@
     padding: 18px 30px 18px 22px;
     border-right: 1px solid #D9D9D9;
     border-radius: 20px 0 0 20px;
-    left: 530px;
-    top: 490px;
+    left: 543px;
+    top: 400px;
 }
 .swiper-button-next:after {
     position: absolute;
@@ -104,8 +105,8 @@
     color: black;
     padding: 18px 22px 18px 30px;
     border-radius: 0px 20px 20px 0px;
-    right: 590px;
-    top: 490px;
+    right: 1020px;
+    top: 400px;
 }
 
 
